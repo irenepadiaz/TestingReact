@@ -1,0 +1,10 @@
+import React from "react";
+
+const Carga = (props) => {
+
+    return (
+        <ul>
+            <li>Carga rápida en estación de repostaje: {props.carga}</li>
+        </ul>
+    )
+}
